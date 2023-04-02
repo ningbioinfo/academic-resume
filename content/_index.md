@@ -26,7 +26,7 @@ sections:
           icon_pack: fab
         - name: Bash
           description: Daily use
-          icon: square-s
+          icon: square-terminal
           icon_pack: fas
   - block: experience
     content:
