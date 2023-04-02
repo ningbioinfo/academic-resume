@@ -82,5 +82,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Ning Liu is a Bioinformacian (post-doctroal) at the Davis Lab. His research interests include Spatial transcriptomics & proteomics in cancer research. He develops computation methods and packages for analysing biological sequencing & image data.
 {style="text-align: justify;"}
