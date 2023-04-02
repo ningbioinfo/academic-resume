@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+  theme_day: 1950s
+  theme_night: 1950s
+  font: Mr Robot
+  font_size: m
 
 # SEO
 
