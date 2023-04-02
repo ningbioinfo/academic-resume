@@ -17,17 +17,21 @@ sections:
       title: Skills
       items:
         - name: R
-          description: 90%
+          description: Bioconductor developer
           icon: r-project
           icon_pack: fab
+        - name: Python
+          description: Huge data processing
+          icon: python
+          icon_pack: fab
+        - name: Bash
+          description: Daily use
+          icon: square-terminal
+          icon_pack: fab
         - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+          description: Data analysis
+          icon: chart-scatter
+          icon_pack: fab
   - block: experience
     content:
       title: Experience
