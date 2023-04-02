@@ -27,11 +27,7 @@ sections:
         - name: Bash
           description: Daily use
           icon: square-terminal
-          icon_pack: fab
-        - name: Statistics
-          description: Data analysis
-          icon: chart-scatter
-          icon_pack: fab
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
