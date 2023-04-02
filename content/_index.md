@@ -27,7 +27,7 @@ sections:
         - name: Bash
           description: Daily use
           icon: square-terminal
-          icon_pack: fas
+          icon_pack: fass
   - block: experience
     content:
       title: Experience
