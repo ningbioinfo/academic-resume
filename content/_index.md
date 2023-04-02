@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2023-04-02
 type: landing
 
 sections:
@@ -77,11 +77,6 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
           date_end: ''
           date_start: '2021-01-25'
           description: ''
@@ -197,7 +192,7 @@ sections:
   - block: collection
     id: talks
     content:
-       title: Recent & Upcoming Talks
+      title: Recent & Upcoming Talks
       filters:
         folders:
           - event
@@ -257,8 +252,3 @@ sections:
     design:
       columns: '2'
 ---
-
-
-
-
-
