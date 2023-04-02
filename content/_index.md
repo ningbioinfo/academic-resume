@@ -26,8 +26,8 @@ sections:
           icon_pack: fab
         - name: Bash
           description: Daily use
-          icon: square-terminal
-          icon_pack: fass
+          icon: square-s
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -40,27 +40,34 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Officer
+          company: Walter & Eliza Hall Institute
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Melbourne, Australia
+          date_start: '2021-05-01'
+          date_end: '2024-01-03'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Analysing data
+              * Modelling biological questions
+              * Deploying software packages
+              * Writing research articles
+        - title: Post doc
+          company: University of Adelaide
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Adelaide, Australia
+          date_start: '2023-01-03'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+              
+              * Analysing data
+              * Modelling biological questions
+              * Deploying software packages
+              * Writing research articles      
     design:
       columns: '2'
   - block: accomplishments
