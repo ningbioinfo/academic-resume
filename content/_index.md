@@ -26,8 +26,8 @@ sections:
           icon_pack: fab
         - name: Bash
           description: Daily use
-          icon: laptop-binary
-          icon_pack: far
+          icon: fa-code
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
