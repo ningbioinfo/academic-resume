@@ -43,7 +43,7 @@ sections:
         - title: Research Officer
           company: Walter & Eliza Hall Institute
           company_url: ''
-          company_logo: org-WEHI
+          company_logo: 
           location: Melbourne, Australia
           date_start: '2021-05-01'
           date_end: '2024-01-03'
@@ -57,7 +57,7 @@ sections:
         - title: Post doc
           company: University of Adelaide
           company_url: ''
-          company_logo: org-UofA
+          company_logo: 
           location: Adelaide, Australia
           date_start: '2023-01-03'
           date_end: ''
