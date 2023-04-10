@@ -1,17 +1,13 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
-date: 2023-04-02
+title: null
+date: 2023-04-10T00:00:00.000Z
 type: landing
-
 sections:
   - block: about.avatar
     id: about
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      # Override your bio text from `authors/admin/_index.md`?
-      text:
+      text: null
   - block: features
     content:
       title: Skills
@@ -24,23 +20,20 @@ sections:
           description: Data processing
           icon: python
           icon_pack: fab
+        - name: Bash/C++
+          description: Daily use
+          icon: code
+          icon_pack: fas
   - block: experience
     content:
       title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Officer
           company: Walter & Eliza Hall Institute
           company_url: ''
-          company_logo: 
-          location: Melbourne, Australia
+          company_logo: null
+          location: 'Melbourne, Australia'
           date_start: '2021-05-01'
           date_end: '2024-01-03'
           description: |2-
@@ -53,13 +46,13 @@ sections:
         - title: Post doc
           company: University of Adelaide
           company_url: ''
-          company_logo: 
-          location: Adelaide, Australia
+          company_logo: null
+          location: 'Adelaide, Australia'
           date_start: '2023-01-03'
           date_end: ''
           description: |2-
               Responsibilities include:
-              
+
               * Analysing data
               * Modelling biological questions
               * Deploying software packages
@@ -73,13 +66,7 @@ sections:
       filters:
         folders:
           - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
         - name: All
           tag: '*'
@@ -88,36 +75,25 @@ sections:
         - name: Other
           tag: Other
     design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
-      # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: markdown
     content:
       title: Gallery
       subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
+      text: '{{< gallery album="demo" >}}'
     design:
       columns: '1'
   - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
     content:
       title: Recent Publications
-      text: |-
+      text: >-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+
+        Quickly discover relevant content by [filtering
+        publications](./publication/).
+
         {{% /callout %}}
       filters:
         folders:
@@ -145,10 +121,10 @@ sections:
     id: contact
     content:
       title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
+      subtitle: null
+      text: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam,
+        venenatis ut magna et, vehicula efficitur enim.
       email: test@example.org
       phone: 888 888 88 88
       appointment_url: 'https://calendly.com'
@@ -176,15 +152,12 @@ sections:
           icon_pack: fas
           name: Zoom Me
           link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
       autolink: true
-      # Email form provider
       form:
         provider: netlify
         formspree:
-          id:
+          id: null
         netlify:
-          # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
       columns: '2'
