@@ -21,13 +21,9 @@ sections:
           icon: r-project
           icon_pack: fab
         - name: Python
-          description: Huge data processing
+          description: Data processing
           icon: python
           icon_pack: fab
-        - name: Bash
-          description: Daily use
-          icon: fa-code
-          icon_pack: fas
   - block: experience
     content:
       title: Experience
